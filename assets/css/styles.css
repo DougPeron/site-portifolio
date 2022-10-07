@@ -1543,29 +1543,6 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
- * ## spacing
- * ------------------------------------------------------------------- */
-img,
-p,
-pre,
-table,
-blockquote,
-figure,
-figcaption,
-ul,
-ol,
-dl,
-form,
-fieldset,
-input,
-textarea,
-select,
-.video-container,
-.ss-custom-select {
-  margin-bottom: var(--vspace-1);
-}
-
-/* ------------------------------------------------------------------- 
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
@@ -1613,8 +1590,7 @@ select:-webkit-autofill:focus {
   align-items: center;
   justify-content: center;
 }
-.btn,
-button {
+.btn {
   --btn-height: var(--vspace-btn);
   align-items: center;
   font-family: var(--font-2);
@@ -1626,7 +1602,6 @@ button {
   line-height: calc(var(--btn-height) - 0.4rem);
   padding: 0 3.2rem;
   margin: 0 0.4rem var(--vspace-0_5) 0;
-
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -3095,6 +3070,9 @@ s-hero__content-about::before {
   border-image-slice: 1;
   border-width: 5px;
   border-image-source: linear-gradient(90deg, #42d3ff, #35e8b3 35%, #e2d45c);
+}
+.s-about p {
+  margin-bottom: var(--vspace-1);
 }
 
 s-about::before {

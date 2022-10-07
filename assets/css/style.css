@@ -263,36 +263,6 @@ margin-top: 4rem;
   display: block;
 }
 
-/*------/ Owl Carousel /------*/
-.owl-theme .owl-dots {
-  text-align: center;
-  margin-top: 18px;
-}
-
-.owl-theme .owl-dots .owl-dot {
-  display: inline-block;
-}
-
-.owl-theme .owl-dots .owl-dot span {
-  width: 18px;
-  height: 7px;
-  margin: 5px 5px;
-  background: #cde1f8;
-  border: 0px solid #cde1f8;
-  display: block;
-  transition: all 0.6s ease-in-out;
-  cursor: pointer;
-}
-
-.owl-theme .owl-dots .owl-dot:hover span {
-  background-color: #cde1f8;
-}
-
-.owl-theme .owl-dots .owl-dot.active span {
-  background-color: #1b1b1b;
-  width: 25px;
-}
-
 /*--/ Scrolltop s /--*/
 .scrolltop-mf {
   position: relative;
@@ -316,6 +286,48 @@ margin-top: 4rem;
   bottom: 50px;
   cursor: pointer;
   border-radius: 50%;
+}
+/*--------------------------------------------------------------
+# Skill
+--------------------------------------------------------------*/
+.skill {
+  background-color: var(--color-bg);
+  padding-top: calc(2 * var(--space));
+  padding-bottom: calc(2 * var(--space));
+}
+.c-carousel-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+.c-carousel-button button {
+  background-color: var(--color-bg);
+  white-space: nowrap;
+  color: var(--color-2);
+  border: solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(180deg, #42d3ff, #35e8b3 36%, #e2d45c);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.glider-dot {
+  background: var(--color-1);
+}
+.glider-dot.active {
+  background: var(--color-2);
+}
+
+.c-carousel__slide {
+  background-color: #fff;
+  margin: 0px 15px;
+  display: flex;
+  padding: 2rem;
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(180deg, #42d3ff, #35e8b3 36%, #e2d45c);
 }
 
 /*--------------------------------------------------------------
