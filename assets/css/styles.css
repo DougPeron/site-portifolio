@@ -25,55 +25,9 @@
   --color-2: #e2d45c;
   --color-3: #42d3ff;
 
-  /* theme color variations
-     */
-  --color-1-lighter: hsla(345, 93%, 64%, 1);
-  --color-1-light: #35e8b3;
-  --color-1-dark: hsla(345, 93%, 34%, 1);
-  --color-1-darker: hsla(345, 93%, 24%, 1);
-  --color-2-lighter: hsla(4, 79%, 83%, 1);
-  --color-2-light: hsla(4, 79%, 73%, 1);
-  --color-2-dark: hsla(4, 79%, 53%, 1);
-  --color-2-darker: hsla(4, 79%, 43%, 1);
-
-  /* feedback colors
-     * color-error(#ffd1d2), color-success(#c8e675), 
-     * color-info(#d7ecfb), color-notice(#fff099)
-     */
-  --color-error: hsla(359, 100%, 91%, 1);
-  --color-success: hsla(76, 69%, 68%, 1);
-  --color-info: hsla(205, 82%, 91%, 1);
-  --color-notice: hsla(51, 100%, 80%, 1);
-  --color-error-content: hsla(359, 50%, 50%, 1);
-  --color-success-content: hsla(76, 29%, 28%, 1);
-  --color-info-content: hsla(205, 32%, 31%, 1);
-  --color-notice-content: hsla(51, 30%, 30%, 1);
-
-  /* shades 
-     * generated using 
-     * Tint & Shade Generator 
-     * (https://maketintsandshades.com/)
-     */
-  --color-black: #000000;
-  --color-gray-19: #0b0b0c;
-  --color-gray-18: #161719;
-  --color-gray-17: #202225;
-  --color-gray-16: #2b2e32;
   --color-gray-15: #363a3f;
-  --color-gray-14: #41454b;
-  --color-gray-13: #4c5158;
   --color-gray-12: #565c64;
   --color-gray-11: #616871;
-  --color-gray-10: #6c737d;
-  --color-gray-9: #7b818a;
-  --color-gray-8: #898f97;
-  --color-gray-7: #989da4;
-  --color-gray-6: #a7abb1;
-  --color-gray-5: #b6b9be;
-  --color-gray-4: #c4c7cb;
-  --color-gray-3: #d3d5d8;
-  --color-gray-2: #e2e3e5;
-  --color-gray-1: #f0f1f2;
   --color-white: #ffffff;
 
   /* text
@@ -1121,25 +1075,6 @@ a:active {
   outline: 0;
 }
 
-/* ===================================================================
- * # typography & general theme styles
- * 
- * ------------------------------------------------------------------- */
-
-/* type scale - ratio 1:2 | base: 18px
- * -------------------------------------------------------------------
-    --text-display-3 = (77.40px)
-    --text-display-2 = (64.50px)
-    --text-display-1 = (53.75px)
-    --text-xxxl      = (44.79px)
-    --text-xxl       = (37.32px)
-    --text-xl        = (31.10px)
-    --text-lg        = (25.92px)
-    --text-md        = (21.60px)
-    --text-size      = (18.00px) BASE
-    --text-sm        = (15.00px)
-    --text-xs        = (12.50px)
- * -------------------------------------------------------------------- */
 h1,
 h3,
 h4,
@@ -2136,60 +2071,6 @@ input::-moz-focus-inner {
 .item-list .item {
   padding-right: 8.6rem;
   margin-bottom: var(--vspace-0_5);
-}
-
-/* ------------------------------------------------------------------- 
- * ## slick slider 
- * ------------------------------------------------------------------- */
-.slick-slider .slick-slide {
-  outline: none;
-}
-
-.slick-slider .slick-dots {
-  display: block;
-  list-style: none;
-  width: 100%;
-  padding: 0;
-  margin: var(--vspace-1) 0 0 0;
-  text-align: center;
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.slick-slider .slick-dots li {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
-  margin: 0;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.slick-slider .slick-dots li button {
-  display: block;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: white;
-  border: none;
-  line-height: 8px;
-  padding: 0;
-  margin: 0;
-  cursor: pointer;
-  font: 0/0 a;
-  text-shadow: none;
-  color: transparent;
-}
-
-.slick-slider .slick-dots li button:hover,
-.slick-slider .slick-dots li button:focus {
-  outline: none;
-}
-
-.slick-slider .slick-dots li.slick-active button,
-.slick-slider .slick-dots li:hover button {
-  background: var(--color-1);
 }
 
 /* ------------------------------------------------------------------- 
